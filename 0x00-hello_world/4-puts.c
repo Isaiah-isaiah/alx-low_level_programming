@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main -main entery point
+* main - Entery point
 *
 * return :always 0 (success)
 */
