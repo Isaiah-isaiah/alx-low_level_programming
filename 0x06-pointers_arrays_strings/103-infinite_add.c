@@ -24,7 +24,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		return (0);
 	r[biggest + 1] = '\0';
 	while (biggest >= 0)
-	{
+		{
 		a = (n1[a_len - 1] - '0');
 		b = (n1[b_len - 1] - '0');
 		if (a_len > 0 && b_len > 0)
@@ -49,9 +49,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		a_len--;
 		b_len--;
 		biggest--;
-	}
-	if (*(r) != 0)
+		}
+		if (*(r) != 0)
 		return (r);
-	else
+		else
 		return (r + 1);
 }
