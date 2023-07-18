@@ -1,0 +1,10 @@
+#ifndef main_h
+#define main_h
+/**
+ * File: 3-function_like_macro
+ * @X: input
+ * Desc: header file
+ */
+#define ABS(X) ((X) < 0 ? -(1) * (X) : (X))
+
+#endif
